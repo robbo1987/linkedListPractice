@@ -7,7 +7,7 @@ class LinkedList {
   insertAtHead(val) {
     const newNode = new LinkedListNode(val, this.head);
     this.head = newNode;
-    length++;
+    this.length++;
   }
 }
 
